@@ -1,0 +1,45 @@
+# ── Neon Forge runtime output ────────────────────────────────────────────────
+artifacts/
+*.jsonl
+report.md
+
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── Environments ────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.Python
+
+# ── Model weights / datasets (never commit these) ───────────────────────────
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.gguf
+models/
+checkpoints/
+datasets/
+cache/
+
+# ── Editors / OS ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+# Neon Forge ships with zero third-party dependencies.
+#
+# The reference pipeline (REA -> Heretic -> OBLITERATUS -> Monitor) runs on the
+# Python 3.9+ standard library alone: math, random, json, statistics,
+# concurrent.futures, dataclasses, logging.
+#
+# Real model backends plug in at the TargetModel seam in rea_engine/extractor.py.
+# Uncomment whatever the backend you implement actually needs:
+#
+# torch>=2.1
+# transformers>=4.38
+# safetensors>=0.4
+# numpy>=1.24
