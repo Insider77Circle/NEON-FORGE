@@ -4,6 +4,28 @@
 extract behavior, remove censorship, map the geometry that remains — and prove it
 with artifacts instead of assertions.
 
+Neon Forge is a multi-agent orchestration system for **LLM refusal analysis**. It
+extracts model behavior with REA, performs directional ablation (**abliteration**)
+to remove refusal directions with Heretic, maps the residual subspace with SVD/PCA
+and **activation steering** with OBLITERATUS, then gates every run on **capability
+preservation** and drift. An AI Meta-Manager owns the stage machine, the gates, and
+the report.
+
+`abliteration` · `refusal direction` · `activation steering` ·
+`mechanistic interpretability` · `model surgery` · `AI red team` ·
+`adversarial ML` · `multi-agent orchestration`
+
+![license](https://img.shields.io/badge/license-MIT-39f6ff?style=flat-square)
+![python](https://img.shields.io/badge/python-3.9%2B-9dff5c?style=flat-square)
+![dependencies](https://img.shields.io/badge/dependencies-none-7a5cff?style=flat-square)
+![upstream](https://img.shields.io/badge/upstream-AGPL--3.0-ff4d6d?style=flat-square)
+![engines](https://img.shields.io/badge/engines-REA%20%C2%B7%20Heretic%20%C2%B7%20OBLITERATUS-39f6ff?style=flat-square)
+
+<p align="center">
+  <img src="assets/neon-forge-architecture.jpg" width="100%"
+       alt="Neon Forge architecture: the AI Meta-Manager orchestrating the REA core engine (extract behavior, reconstruct logic, generate datasets, validate outputs), Heretic auto censorship removal, OBLITERATUS geometry surgery with SVD/PCA mapping, and a model output monitor tracking drift, refusal rate and capability preservation.">
+</p>
+
 ```
                         ┌──────────────────────────────┐
                         │      AI META-MANAGER         │

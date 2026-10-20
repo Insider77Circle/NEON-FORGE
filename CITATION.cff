@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use Neon Forge in research, cite it as below."
+title: "Neon Forge: parallel AI reverse-engineering system"
+abstract: >-
+  Neon Forge orchestrates three engines under one AI Meta-Manager: REA for
+  probe-driven behavior extraction, Heretic for directional ablation of refusal
+  directions, and OBLITERATUS for SVD/PCA geometry mapping and rank-k projection
+  surgery. Every run is gated on capability preservation and activation drift,
+  and reports artifacts rather than assertions.
+type: software
+authors:
+  - name: "RedStorm Research LLC"
+    website: "https://insider77circle.github.io/redstorm-research/"
+repository-code: "https://github.com/Insider77Circle/NEON-FORGE"
+url: "https://github.com/Insider77Circle/NEON-FORGE"
+license: MIT
+version: 0.1.0
+date-released: "2026-10-20"
+keywords:
+  - abliteration
+  - refusal direction
+  - activation steering
+  - mechanistic interpretability
+  - llm safety
+  - model surgery
+  - multi-agent orchestration
+  - red team
